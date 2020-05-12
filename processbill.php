@@ -45,7 +45,7 @@ $amount = $bill;
 $currency = "NGN";
 $txref = $refno ; // ensure you generate unique references per transaction.
 $PBFPubKey = "FLWPUBK_TEST-dd6f527bf0969d97d7252d3b0c3ab056-X"; // get your public key from the dashboard.
-$redirect_url = "https://localhost/SNHV3/billsuccess.php";
+$redirect_url = "https://adtrexbill.herokuapp.com/billsuccess.php";
 
 
 curl_setopt_array($curl, array(
