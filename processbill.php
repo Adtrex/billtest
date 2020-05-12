@@ -33,7 +33,7 @@ $refno = "";
 
 			$index = mt_rand(0,count($alphabets)-1);	
 			$refno .= $alphabets[$index];
-		}
+		
 
 //Bill payment process
 
